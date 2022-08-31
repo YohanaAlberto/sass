@@ -1,0 +1,12 @@
+footer img:hover {
+    width: 75px;
+    height: 75px;
+}
+
+.icono {
+    padding: 10px;
+    &:hover {
+        height: 100px;
+    }
+}
+  

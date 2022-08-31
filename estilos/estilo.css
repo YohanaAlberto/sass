@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  background-color: #63a375;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+nav {
+  width: 100%;
+  height: 20vh;
+  background-color: #63a375;
+}
+
+ul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+ul li {
+  width: 100%;
+  margin: 50px;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #713e5a;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  background-color: #713e5a;
+  font-family: "Roboto Slab", serif;
+}
+
+.imgCarousel {
+  height: 550px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: rgba(55, 130, 84, 0.215);
+}
+
+.card-body {
+  height: 37rem;
+}
+
+.contenedorTabla {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.tabla {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-thumbnail {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+article {
+  width: 500px;
+  height: 700px;
+}/*# sourceMappingURL=estilo.css.map */
